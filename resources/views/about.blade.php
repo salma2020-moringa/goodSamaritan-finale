@@ -165,7 +165,7 @@
             <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
                 <div class="team-card">
                     <div class="team-image">
-                        <img src="{{ asset('images/nelson-karageya.jpeg') }}" alt="Pastor Edwards">
+                        <img src="https://randomuser.me/api/portraits/men/52.jpg" alt="Pastor Edwards">
                         <div class="team-social">
                             <a href="#"><i class="fab fa-facebook-f"></i></a>
                             <a href="#"><i class="fab fa-twitter"></i></a>
