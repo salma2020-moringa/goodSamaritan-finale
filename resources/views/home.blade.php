@@ -148,7 +148,7 @@
         <div class="row g-4">
             <div class="col-md-4" data-aos="fade-up" data-aos-delay="0">
                 <div class="gallery-item">
-                    <img src="https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80" alt="Children smiling">
+                    <img src="{{ asset('images/Football.jpg') }}" alt="Children playing football">
                     <div class="gallery-overlay">
                         <h5 class="mb-0">Joyful Moments</h5>
                         <small>Children enjoying their daily activities</small>
@@ -157,7 +157,7 @@
             </div>
             <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
                 <div class="gallery-item">
-                    <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2022&q=80" alt="Education">
+                    <img src="{{ asset('images/education.jpg.jpg') }}" alt="Education">
                     <div class="gallery-overlay">
                         <h5 class="mb-0">Education Matters</h5>
                         <small>Children in their classroom</small>

@@ -18,7 +18,9 @@
     <div class="container">
         <div class="row g-5">
             <div class="col-lg-6" data-aos="fade-right">
-                <img src="https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80" alt="Children's Home" class="img-fluid rounded-4 shadow-lg">
+                <video class="img-fluid rounded-4 shadow-lg" autoplay muted loop playsinline>
+                    <source src="{{ asset('Children\'s Care & Shelter5.mp4') }}" type="video/mp4">
+                </video>
             </div>
             <div class="col-lg-6" data-aos="fade-left">
                 <h2 class="mb-3" style="color: var(--primary-green);">Children's Care & Shelter</h2>
@@ -59,7 +61,7 @@
         
         <div class="row g-5 mt-5">
             <div class="col-lg-6" data-aos="fade-right">
-                <img src="https://images.unsplash.com/photo-1531844251246-9a1bfaae09fc?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80" alt="Healthcare" class="img-fluid rounded-4 shadow-lg">
+                <img src="{{ asset('images/Food, Clothing & Healthcare.jpg') }}" alt="Food, Clothing & Healthcare" class="img-fluid rounded-4 shadow-lg">
             </div>
             <div class="col-lg-6" data-aos="fade-left">
                 <h2 class="mb-3" style="color: var(--primary-green);">Food, Clothing & Healthcare</h2>

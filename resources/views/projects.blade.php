@@ -217,7 +217,7 @@
         <div class="row g-4">
             <div class="col-md-4" data-aos="fade-up" data-aos-delay="0">
                 <div class="gallery-item">
-                    <img src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80" alt="Construction site">
+                    <img src="{{ asset('groundbreaking.jpg') }}" alt="Phase 1: Groundbreaking">
                     <div class="gallery-overlay">
                         <h5 class="mb-0">Phase 1: Groundbreaking</h5>
                         <small>January 2024</small>

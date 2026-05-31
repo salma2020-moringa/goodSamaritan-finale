@@ -66,7 +66,7 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6" data-aos="fade-right">
-                <img src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80" alt="Sponsor a child" class="img-fluid rounded-4 shadow-lg">
+                <img src="{{ asset('Sponsor-child.jpg') }}" alt="Sponsor a child" class="img-fluid rounded-4 shadow-lg">
             </div>
             <div class="col-lg-6" data-aos="fade-left">
                 <h2 style="color: var(--primary-green);">Sponsor a Child Today</h2>

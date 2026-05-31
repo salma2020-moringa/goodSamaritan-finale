@@ -185,7 +185,8 @@
                 <div class="testimonial-card">
                     <p class="fs-4 mb-3">"These children expect everything from Good Samaritans because they have no parents and are refugees. But in Christ, they are not forgotten."</p>
                     <div class="d-flex align-items-center mt-4">
-                        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Bishop Nelson" class="rounded-circle me-3" width="60" height="60">
+                        <img src="{{ asset('images/nelson-karageya.jpeg') }}" alt="Bishop Nelson" class="rounded-circle">
+                        <div>
                         <div>
                             <h5 class="mb-0">Bishop Nelson Karegeya</h5>
                             <small class="text-muted">Founder, Good Samaritans</small>

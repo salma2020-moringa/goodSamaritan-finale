@@ -13,7 +13,7 @@
                 <p>Good Samaritans is a Christian, nonprofit organization dedicated to caring for orphaned and vulnerable children, especially children from the Democratic Republic of Congo who are living as refugees in Uganda.</p>
             </div>
             <div class="col-lg-6" data-aos="fade-left">
-                <img src="https://images.unsplash.com/photo-1531844251246-9a1bfaae09fc?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80" alt="Children group" class="img-fluid rounded-4 shadow-lg">
+                <img src="{{ asset('images/about good samaritans.jpg') }}" alt="About Good Samaritans" class="img-fluid rounded-4 shadow-lg">
             </div>
         </div>
     </div>
