@@ -165,7 +165,7 @@
             <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
                 <div class="team-card">
                     <div class="team-image">
-                        <img src="https://randomuser.me/api/portraits/men/52.jpg" alt="Pastor Edwards">
+                        <img src="{{ asset('images/nelson-karageya.jpeg') }}" alt="Edwards Barbarzar">
                         <div class="team-social">
                             <a href="#"><i class="fab fa-facebook-f"></i></a>
                             <a href="#"><i class="fab fa-twitter"></i></a>
@@ -183,7 +183,7 @@
             <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
                 <div class="team-card">
                     <div class="team-image">
-                        <img src="https://randomuser.me/api/portraits/men/38.jpg" alt="Julius Irakoze">
+                        <img src="{{ asset('images/julius.jpeg') }}" alt="Julius Irakoze">
                         <div class="team-social">
                             <a href="#"><i class="fab fa-facebook-f"></i></a>
                             <a href="#"><i class="fab fa-twitter"></i></a>
