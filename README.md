@@ -1,60 +1,82 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Good Samaritan
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+### Laravel web platform for child sponsorship, donations and community support
 
-## About Laravel
+Good Samaritan is a client web project built around a simple goal: make it easier for an organization to present its work, connect supporters with children and projects, accept donations, and manage activity behind the scenes.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Unlike Volt, this project was less about experimenting with a product idea and more about **taking a real client project through implementation and delivery**.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## What the platform includes
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+The application supports:
 
-## Learning Laravel
+* Public pages for the organization's story, work, projects and contact information
+* Child profiles and individual child-detail pages
+* Child sponsorship for authenticated users
+* Donation flow from donation selection through payment and confirmation
+* User authentication and profile management
+* Administrative management for children
+* Donation records
+* Sponsorship records
+* Volunteers
+* Users
+* Website content
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
+## Public experience
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+Visitors can explore the organization's work, browse children and projects, learn how to get involved and begin a donation or sponsorship journey.
 
-## Laravel Sponsors
+The goal was to keep the public experience approachable while connecting it to structured information managed through the application.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+## Administration
 
-### Premium Partners
+The project includes an authenticated administrative area for managing:
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+* Children
+* Donations
+* Sponsorships
+* Volunteers
+* Users
+* Site content
 
-## Contributing
+This separates the public website from the operational side of the platform instead of requiring content to be changed directly in the code.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+## Built with
 
-## Code of Conduct
+* Laravel
+* PHP
+* Blade
+* Eloquent ORM
+* Relational database
+* HTML / CSS / JavaScript
+* Laravel authentication
+* Git / GitHub
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+## My role
 
-## Security Vulnerabilities
+My work included **website customization, UI implementation, troubleshooting, deployment support and translating client feedback into changes to the product**.
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+A significant part of the project was not simply writing code. It was moving between what the client was asking for, what the existing application could do, what needed to change visually and technically, and what had to work correctly when the project moved from local development to hosting.
 
-## License
+## What made this project useful to me
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-# goodSamaritan
+Good Samaritan gave me experience with something very different from building for myself:
+
+**delivery.**
+
+A client project has a finish line that matters to somebody else.
+
+That meant dealing with feedback, revisions, hosting differences, deployment problems and the small details that suddenly become important when another person is waiting for the finished product.
+
+## Status
+
+**Client project — delivered**
+
+The repository remains as a record of the development work and the Laravel application used during the project.
+
+---
+
+**Project:** Good Samaritan
+**Type:** Client web application
+**Role:** Web Development / UI / Deployment Support
+**Stack:** Laravel / PHP / Blade
